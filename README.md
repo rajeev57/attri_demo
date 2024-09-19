@@ -88,11 +88,8 @@ python manage.py runserver
 python manage.py test orders
 
 ## Local host url:-
-# For customers :- http://127.0.0.1:8000/api/customers/
-# For order :- http://127.0.0.1:8000/api/orders/
+# For customers :- 
+http://127.0.0.1:8000/api/customers/
+# For order :- 
+http://127.0.0.1:8000/api/orders/
 
-1. **Clone the repository**:
-
-   ```bash
-   git clone https://github.com/yourusername/order_management.git
-   cd order_management
