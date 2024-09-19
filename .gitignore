@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Django
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.env
+*.venv/
+venv/
+env/
+.env.*
+
+# Docker
+*.dockerfile
+Dockerfile
+docker-compose.yml
+
+# Misc
+*.DS_Store
+*.swp
+
+.idea/
