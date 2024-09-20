@@ -64,7 +64,7 @@ class OrderViewSet(APIView):
 
         return Response({"status": "error", "errors": serializer.errors}, status=status.HTTP_400_BAD_REQUEST)
 
-    def patch(self, request, order_id):
+    def put(self, request, order_id):
         order = get_object_or_404(Order, id=order_id)
         serializer = OrderSerializer(order, data=request.data, partial=True)
         if serializer.is_valid():
